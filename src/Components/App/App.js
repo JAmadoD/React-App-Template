@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Aux from '../hoc/Aux';
 import './App.css';
 import Header from '../Header/Header';
+import Nav from '../Nav/Nav';
 
 class App extends Component {
     constructor(props) {
@@ -13,7 +14,7 @@ render(){
     <Aux>
         <div className='App'>
         <header className='app-header'><Header /></header>
-            <nav className='app-nav'>This is the nav bar</nav>
+            <nav className='app-nav'><Nav /></nav>
                 <main className='app-main'>
                     <div>
                         <h1>React Template</h1>
