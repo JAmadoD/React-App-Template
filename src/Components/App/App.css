@@ -1,11 +1,14 @@
-.App {
-    /*display: flex;*/
 
+
+.App {
+    display: flex;
+    flex-direction: column;
+    /*font-family: "Times New Roman", Times, serif;*/
 }
 
 .app-header {
-    color: blue;
-    border: 1px black solid;
+    color: black;
+    /*border: 1px black solid;*/
     align-items: center;
     text-align: center;
 
@@ -26,12 +29,15 @@
 
 .app-main {
     color: red;
-    border: 1px black solid;
+    background-color: antiquewhite;
+    /*border: 1px black solid;*/
     align-items: center;
     text-align: center;
+
     
     flex: 1;
     order: 1;
+
 }
 
 .app-footer {
