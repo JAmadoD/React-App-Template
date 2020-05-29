@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
-    "test": "jest"
+    "test": "jest",
+    "proxy": "http://localhost:8080"
   },
   "author": "Joshua Amado",
   "license": "MIT",

@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import Aux from '../hoc/Aux';
-import './App.css';
-import Header from '../Header/Header';
-import Nav from '../Nav/Nav';
-
+import Aux from '../Components/hoc/Aux';
+import '../Components/App/App.css';
+import Header from '../Components/Header/Header';
+import Nav from '../Components/Nav/Nav';
 
 class Home extends Component {
     constructor(props) {
@@ -21,7 +20,7 @@ render(){
             </nav>
                 <main className='app-main'>
                     <div>
-                        <h1>Content goes here</h1>
+                        <h1>This the home page</h1>
                     </div>
                 </main>
         <footer className='app-footer'>This is the Footer</footer>

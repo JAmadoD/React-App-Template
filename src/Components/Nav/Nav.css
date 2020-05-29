@@ -1,5 +1,35 @@
 .navBar {
     background-color: whitesmoke;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.element1 {
+    order: 1;
+    flex: 1;
+   /* text-align: center; */
+}
+
+.element2 {
+    order: 1;
+    flex: 1;
+    /* text-align: center; */
+}
+
+.element3 {
+    order: 1;
+    flex: 1;
+    /* text-align: center; */
+}
+
+.element4 {
+    order: 1;
+    flex: 1;
+    /* text-align: center; */
+}
+
+.element5 {
+    order: 1;
+    flex: 1;
+    /* text-align: center; */;
 }
