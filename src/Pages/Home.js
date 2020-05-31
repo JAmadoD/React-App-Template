@@ -20,7 +20,7 @@ render(){
             </nav>
                 <main className='app-main'>
                     <div>
-                        <h1>This the home page</h1>
+                        <h1>This the home</h1>
                     </div>
                 </main>
         <footer className='app-footer'>This is the Footer</footer>

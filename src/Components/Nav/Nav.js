@@ -10,47 +10,46 @@ import {
 import Home from '../../Pages/Home';
 import AboutUs from '../../Pages/AboutUs';
 import ContactUs from '../../Pages/ContactUs';
-import Downloads from '../../Pages/downloads';
+import Downloads from '../../Pages/Downloads';
 import Services from '../../Pages/Services';
 
 const Nav = (props) => {
 
     return (
         <Router>
-        <Aux>
             <div className='navBar'>
                 <div id='element1'>
                     <Link to='/'>Home</Link>
 
                 </div>
                 <div id='element2'>
-                    <Link to='/about_us'>About Us</Link>
+                    <Link to='/About_us'>About Us</Link>
 
                 </div>
                 <div id='element3'>
-                    <Link to='/services'>Services</Link>
+                    <Link to='/Services'>Services</Link>
 
 
                 </div>
                 <div id='element4'>
-                    <Link to='/downloads'>Downloads</Link>
+                    <Link to='/Downloads'>Downloads</Link>
 
                 </div>
                 <div id='element5'>
-                    <Link to='/contact_us'>Contact Us</Link>
+                    <Link to='/Contact_us'>Contact Us</Link>
 
                 </div>
-
+ 
                 <Switch>
-                    <Route path='\' Component={Home}></Route>
-                    <Route path='\contact_us' Component={ContactUs}></Route>
-                    <Route path='\about_us' Component={AboutUs}></Route>
-                    <Route path='\downloads' Component={Downloads}></Route>
-                    <Route path='\contact_us' Component={Services}></Route>
+                    <Route path='/' Component={Home}/>
+                    <Route path='/Contact_us' Component={ContactUs}/>
+                    <Route path='/About_us' Component={AboutUs}/>
+                    <Route path='/Downloads' Component={Downloads}/>
+                    <Route path='/Services' Component={Services}/>
                 </Switch>
             </div>
-        </Aux>
-        </Router>
+            </Router>
+        
     )
 }
 

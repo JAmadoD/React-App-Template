@@ -13,19 +13,18 @@ class Services extends Component {
 
 render(){
     return(
-    <Aux>
+    
         <div className='App'>
         <header className='app-header'><Header /></header>
             <nav className='app-nav'><Nav /></nav>
                 <main className='app-main'>
                     <div>
                         <h1>This is the Service Page</h1>
-                    </div>
-                    
+                    </div>           
                 </main>
         <footer className='app-footer'>This is the Footer</footer>
         </div>
-    </Aux>
+    
          );
         }
 }

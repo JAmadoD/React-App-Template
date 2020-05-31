@@ -12,7 +12,7 @@ class ContactUs extends Component {
 
 render(){
     return(
-    <Aux>
+
         <div className='App'>
         <header className='app-header'><Header /></header>
             <nav className='app-nav'><Nav /></nav>
@@ -20,11 +20,10 @@ render(){
                     <div>
                         <h1>This is the contacts us page</h1>
                     </div>
-                    
                 </main>
         <footer className='app-footer'>This is the Footer</footer>
         </div>
-    </Aux>
+    
          );
         }
 }
