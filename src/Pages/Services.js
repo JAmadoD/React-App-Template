@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Aux from '../Components/hoc/Aux';
 import '../Components/App/App.css';
 import Header from '../Components/Header/Header';
 import Nav from '../Components/Nav/Nav';
