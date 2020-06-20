@@ -6,12 +6,8 @@ import Nav from '../Components/Nav/Nav';
 
 //page is to be used as template for other pages
 
-class Downloads extends Component {
-    constructor(props) {
-        super(props)};
+function Downloads(){
 
-
-render(){
     return(
     
         <div className='App'>
@@ -26,7 +22,7 @@ render(){
         </div>
     
          );
-        }
+        
 }
 
 export default Downloads;

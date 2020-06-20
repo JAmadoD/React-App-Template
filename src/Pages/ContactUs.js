@@ -6,11 +6,8 @@ import Nav from '../Components/Nav/Nav';
 
 //page is to be used as template for other pages
 
-class ContactUs extends Component {
-    constructor(props) {
-        super(props)};
-
-render(){
+function ContactUs() {
+    
     return(
 
         <div className='App'>
@@ -23,9 +20,8 @@ render(){
                 </main>
         <footer className='app-footer'>This is the Footer</footer>
         </div>
-    
-         );
-        }
+        
+    );
 }
 
 export default ContactUs;

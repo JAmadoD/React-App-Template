@@ -5,12 +5,8 @@ import Nav from '../Components/Nav/Nav';
 
 //page is to be used as template for other pages
 
-class Services extends Component {
-    constructor(props) {
-        super(props)};
-
-
-render(){
+function Services(){
+    
     return(
     
         <div className='App'>
@@ -25,7 +21,7 @@ render(){
         </div>
     
          );
-        }
+        
 }
 
 export default Services;

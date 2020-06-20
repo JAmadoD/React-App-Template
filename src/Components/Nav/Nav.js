@@ -40,11 +40,11 @@ const Nav = (props) => {
                 </div>
  
                 <Switch>
-                    <Route path='/' Component={Home}/>
-                    <Route path='/Contact_us' Component={ContactUs}/>
-                    <Route path='/About_us' Component={AboutUs}/>
-                    <Route path='/Downloads' Component={Downloads}/>
-                    <Route path='/Services' Component={Services}/>
+                    <Route path='/Contact_us' component={ContactUs}/>
+                    <Route path='/About_us' component={AboutUs}/>
+                    <Route path='/Downloads' component={Downloads}/>
+                    <Route path='/Services' component={Services}/>
+                    <Route path='/' exact component={Home}/>
                 </Switch>
             </div>
             </Router>

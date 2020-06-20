@@ -6,28 +6,21 @@ import Nav from '../Components/Nav/Nav';
 
 //page is to be used as template for other pages
 
-class AboutUs extends Component {
-    constructor(props) {
-        super(props)};
-
-
-render(){
+function AboutUs() {
+    
     return(
     
-        <div className='App'>
-        <header className='app-header'><Header /></header>
-            <nav className='app-nav'><Nav /></nav>
+        
                 <main className='app-main'>
                     <div>
                         <h1>This is the About Page</h1>
                     </div>
  
                 </main>
-        <footer className='app-footer'>This is the Footer</footer>
-        </div>
+        
     
          );
-        }
+        
 }
 
 export default AboutUs;

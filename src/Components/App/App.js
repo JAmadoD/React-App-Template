@@ -1,19 +1,14 @@
 import React, { Component } from 'react';
-import Aux from '../hoc/Auxi';
 import './App.css';
 import Header from '../Header/Header';
 import Nav from '../Nav/Nav';
 
 
-class Home extends Component {
-    constructor(props) {
-        super(props)};
+function App() {
 
-
-render(){
     return(
     
-    <Aux>
+    
         <div className='App'>
         <header className='app-header'><Header /></header>
             <nav className='app-nav'>
@@ -26,10 +21,10 @@ render(){
                 </main>
         <footer className='app-footer'>This is the Footer</footer>
         </div>
-    </Aux>
+    
     
          );
-        }
+        
 }
 
-export default Home;
+export default App;

@@ -1,34 +1,27 @@
 import React, { Component } from 'react';
-import Aux from '../Components/hoc/Auxi';
 import '../Components/App/App.css';
 import Header from '../Components/Header/Header';
 import Nav from '../Components/Nav/Nav';
 
-class Home extends Component {
-    constructor(props) {
-        super(props)};
+function App() {
 
-
-render(){
     return(
-    
-    <Aux>
         <div className='App'>
-        <header className='app-header'><Header /></header>
-            <nav className='app-nav'>
+            <header className='app-header'><Header /></header>
+                <nav className='app-nav'>
                 <Nav />     
-            </nav>
-                <main className='app-main'>
-                    <div>
-                        <h1>This the home</h1>
-                    </div>
-                </main>
-        <footer className='app-footer'>This is the Footer</footer>
+                </nav>
+                    <main className='app-main'>
+                        <div>
+                            <h1>This is the home screen</h1>
+
+                            <p>Content goes here</p>
+                        </div>
+                    </main>
+            <footer className='app-footer'>This is the Footer</footer>
         </div>
-    </Aux>
-    
          );
-        }
+        
 }
 
-export default Home;
+export default App;
